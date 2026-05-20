@@ -241,3 +241,5 @@ CLAUDE.local.md
 *.gif.*.png
 *.stamp
 /not
+openssl-3.3.0/
+openssl-3.3.0.tar.gz
