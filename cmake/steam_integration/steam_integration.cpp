@@ -11,7 +11,7 @@ const int steam_app_id = 2660970;
 
 /*
 	Test:
-	steam://run/2660970//arena.hypersomnia.io/
+	steam://run/2660970//arena.hypersomnia.ir/
 */
 
 uint8_t* avatar_data = nullptr;

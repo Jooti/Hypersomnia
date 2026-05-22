@@ -91,7 +91,7 @@ This is now the folder for your [`.json` configuration files](#configuration).
 # Manual `AppImage` setup
 
 ```sh
-wget https://hypersomnia.io/builds/latest/Hypersomnia-Headless.AppImage
+wget https://hypersomnia.ir/builds/latest/Hypersomnia-Headless.AppImage
 chmod +x Hypersomnia-Headless.AppImage
 nohup ./Hypersomnia-Headless.AppImage --appimage-extract-and-run --daily-autoupdate > /dev/null 2>&1 &
 ```
@@ -177,7 +177,7 @@ If you have a Discord server, you might want to setup a [Webhook](https://suppor
 
 You'll need these ports open:
 - One UDP port for native clients (``8412`` is recommended).
-- One UDP port for [Web clients](https://play.hypersomnia.io).
+- One UDP port for [Web clients](https://play.hypersomnia.ir).
 	- ``9000`` by default - multiple web clients will be multiplexed.
 	  - Optionally, you can disable UDP multiplexing and use multiple UDP ports.
 

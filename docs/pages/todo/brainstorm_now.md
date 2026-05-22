@@ -180,7 +180,7 @@ jakis crash na serwerze przy graniu z januszem
 	- and possibly web too
 - launch a job for all if commit message is in v.1.3.4 format or just has [release]
 
-- implement map and game mode params in play.hypersomnia.io/host/map/mode
+- implement map and game mode params in play.hypersomnia.ir/host/map/mode
 - fix web too
 	- i dont remember what was that
 
@@ -422,7 +422,7 @@ jakis crash na serwerze przy graniu z januszem
         - symlink user/downloads to ~/community_arenas per each update
         - page with all downloads etc. should point to ~/community_arenas and say "Community Arenas
     - ultimately
-        - 1) Separate official/custom maps on hypersomnia.io
+        - 1) Separate official/custom maps on hypersomnia.ir
         - 2) Keep official ones immutably in content/arenas (done)
         - 3) Keep custom ones in .config/user/downloads/arenas and point the php page to it (works with .tar.gz too just have to symlink each time)
         - For custom servers it sorta works out of the box since they don't serve the php page
@@ -2403,7 +2403,7 @@ Nie nazywajmy tego arena editor tylko użyjmy najbardziej oczywistej nazwy
 - Leaderboards
     - Columns: Avatar, Nickname, Kills, Assists, Deaths, Hours played
 
-- Setup a simple dev journal at hypersomnia.io
+- Setup a simple dev journal at hypersomnia.ir
 
 - Advanced RCON functionality
     - Kicking and banning users

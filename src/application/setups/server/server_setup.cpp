@@ -669,8 +669,8 @@ std::vector<rtc::IceServer> get_ice_servers() {
 
 	out.emplace_back(rtc::IceServer("stun.l.google.com", 19302));
 	out.emplace_back(rtc::IceServer("stun.1und1.de", 3479));
-	out.emplace_back(rtc::IceServer("arena-us.hypersomnia.io", 3478, "somnia", "Re8Iefei"));
-	out.emplace_back(rtc::IceServer("arena-pl.hypersomnia.io", 3478, "somnia", "Re8Iefei"));
+	out.emplace_back(rtc::IceServer("arena-us.hypersomnia.ir", 3478, "somnia", "Re8Iefei"));
+	out.emplace_back(rtc::IceServer("arena-pl.hypersomnia.ir", 3478, "somnia", "Re8Iefei"));
 
 	return out;
 }
@@ -5307,7 +5307,7 @@ std::string get_steam_join_link(const std::string& suffix) {
 }
 
 std::string get_browser_join_link(const std::string& suffix) {
-	return typesafe_sprintf("https://play.hypersomnia.io/game/%x", suffix);
+	return typesafe_sprintf("https://play.hypersomnia.ir/game/%x", suffix);
 }
 
 bool server_client_state::is_webrtc_client() const {

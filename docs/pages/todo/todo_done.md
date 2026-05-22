@@ -6640,7 +6640,7 @@ This will discard your redo history."
 
 - Determining if game runs steam
     - No point in having config var, why?
-        - We'll anyway ship a non-steam lib to hypersomnia.io to have no proprietary soft in foss distributions
+        - We'll anyway ship a non-steam lib to hypersomnia.ir to have no proprietary soft in foss distributions
         - So when we have a non-steam lib, a config var like this would not work anyway
         - And when you're launching from steam, there's no advantage disabling it
     - Just return true/false from steam_init
@@ -7107,7 +7107,7 @@ This will discard your redo history."
         - and have the masterserver recognize them by correct webrtc id
     - we'll have to send the web client info in server list as 0.0.0.0 because there's no point even pinging them since we dont know the port anyway
     - permalinks
-        - play.hypersomnia.io/game/gns should join "gns" game or create it if one doesnt exist
+        - play.hypersomnia.ir/game/gns should join "gns" game or create it if one doesnt exist
     - note this means all servers native or not might as well use http
     - NO! Note native clients dont need websocket connection!
         - They can simply exchange udp packets with the signalling server!!!

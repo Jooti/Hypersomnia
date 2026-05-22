@@ -3510,7 +3510,7 @@ work_result work(
 #if !WEB_CRAZYGAMES
 			case T::EDITOR:
 #if WEB_LOWEND
-				augs::open_url("https://play.hypersomnia.io/editor/official");
+				augs::open_url("https://play.hypersomnia.ir/editor/official");
 #else
 				launch_setup(activity_type::EDITOR_PROJECT_SELECTOR);
 #endif
@@ -3524,7 +3524,7 @@ work_result work(
 
 #if !WEB_LOWEND
 			case T::CREDITS:
-				augs::open_url("https://hypersomnia.io/credits");
+				augs::open_url("https://hypersomnia.ir/credits");
 				break;
 #endif
 

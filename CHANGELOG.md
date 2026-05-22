@@ -8,7 +8,7 @@
 
 ### Changed
 
-- hypersomnia.xyz -> hypersomnia.io
+- hypersomnia.xyz -> hypersomnia.ir
 
 ## [1.6.2] - 2025-10-26
 
@@ -105,7 +105,7 @@
 
 ### Added
 
-- Webhooks also report servers hosted on the Web now (play.hypersomnia.io or CrazyGames).
+- Webhooks also report servers hosted on the Web now (play.hypersomnia.ir or CrazyGames).
 
 ### Fixed
 

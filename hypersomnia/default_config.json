@@ -9,8 +9,8 @@
     // "log_timestamp_format": "[%d-%m-%y %H:%M:%S] ",
     // "log_timestamp_format": "",
 
-    "server_list_provider": "http://masterserver.hypersomnia.io:8410",
-    "webrtc_signalling_server_url": "wss://masterserver.hypersomnia.io:8000",
+    "server_list_provider": "http://masterserver.hypersomnia.ir:8410",
+    "webrtc_signalling_server_url": "wss://masterserver.hypersomnia.ir:8000",
 
     "streamer_mode": false,
     "streamer_mode_flags": {
@@ -323,11 +323,11 @@
         "webrtc_port_range_begin": 9000,
         "webrtc_port_range_end": 9050, // only matters if "webrtc_udp_mux": false
         "server_name": "", // Will be "Nickname's server" by default.
-        "notified_server_list": "masterserver.hypersomnia.io:8430",
+        "notified_server_list": "masterserver.hypersomnia.ir:8430",
         "suppress_new_community_server_webhook": false,
         "is_behind_nat": true,
         "allow_direct_arena_file_downloads": true,
-        "external_arena_files_provider": "https://hypersomnia.io/arenas",
+        "external_arena_files_provider": "https://hypersomnia.ir/arenas",
         "autoupdate_delay": 0,
         "daily_autoupdate": false,
         "daily_autoupdate_hour": "03:00",
@@ -362,10 +362,10 @@
         "sleep_mult": 0.10000000149011612,
         "max_direct_file_bandwidth": 6.0,
         "webhooks": {
-            "duel_of_honor_pic_link_pattern": "https://hypersomnia.io/assets/images/duels/%x.jpg",
-            "duel_victory_pic_link_pattern": "https://hypersomnia.io/assets/images/duels/victory.jpg",
-            "fled_pic_link": "https://hypersomnia.io/assets/images/duels/shameful.jpg",
-            "reconsidered_pic_link": "https://hypersomnia.io/assets/images/duels/reconsidered.jpg",
+            "duel_of_honor_pic_link_pattern": "https://hypersomnia.ir/assets/images/duels/%x.jpg",
+            "duel_victory_pic_link_pattern": "https://hypersomnia.ir/assets/images/duels/victory.jpg",
+            "fled_pic_link": "https://hypersomnia.ir/assets/images/duels/shameful.jpg",
+            "reconsidered_pic_link": "https://hypersomnia.ir/assets/images/duels/reconsidered.jpg",
             "num_duel_pics": 6
         },
         "shutdown_after_first_match": false,
@@ -409,7 +409,7 @@
 
         "steam_web_api_key": "",
         "report_ranked_match_api_key": "",
-        "report_ranked_match_url": "https://hypersomnia.io/report_match",
+        "report_ranked_match_url": "https://hypersomnia.ir/report_match",
         "report_ranked_match_aux_endpoints": [],
         "check_ban_url": ""
         // [ { "url": "example.com", "api_key": "example" }, { ... } ]
@@ -450,7 +450,7 @@
     "self_update": {
         "update_on_launch": true,
         "update_connection_timeout_secs": 2,
-        "update_host": "https://hypersomnia.io",
+        "update_host": "https://hypersomnia.ir",
         "update_path": "/builds/latest"
     },
 
@@ -474,21 +474,21 @@
         "sleep_ms": 8.0,
         "report_rtc_errors_to_webhook": true,
         "official_hosts": [
-            "arena.hypersomnia.io",
-            "arena-us.hypersomnia.io",
-            "arena-de.hypersomnia.io",
-            "arena-au.hypersomnia.io",
-            "arena-ru.hypersomnia.io",
-            "arena-ch.hypersomnia.io",
-            "arena-fi.hypersomnia.io",
-            "arena-nl.hypersomnia.io"
+            "arena.hypersomnia.ir",
+            "arena-us.hypersomnia.ir",
+            "arena-de.hypersomnia.ir",
+            "arena-au.hypersomnia.ir",
+            "arena-ru.hypersomnia.ir",
+            "arena-ch.hypersomnia.ir",
+            "arena-fi.hypersomnia.ir",
+            "arena-nl.hypersomnia.ir"
         ]
     },
 
     "nat_detection": {
         "port_probing": {
             "host": {
-                "address": "masterserver.hypersomnia.io",
+                "address": "masterserver.hypersomnia.ir",
                 "default_port": 8430
             },
             "num_available": 30,
@@ -569,7 +569,7 @@
     },
 
     "main_menu": {
-        "leaderboards_provider_url": "https://hypersomnia.io/leaderboards",
+        "leaderboards_provider_url": "https://hypersomnia.ir/leaderboards",
         "menu_intro_scene_entropy_path": "abc",
         "menu_background_arena_path": "content/menu/menu",
         "menu_theme_path": "",
@@ -735,7 +735,7 @@
             "offset": [80, 80]
         },
         "upload_api_key": "",
-        "upload_url": "https://hypersomnia.io/upload"
+        "upload_url": "https://hypersomnia.ir/upload"
     },
 
     "gui_fonts": {

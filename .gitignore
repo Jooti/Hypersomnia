@@ -243,3 +243,4 @@ CLAUDE.local.md
 /not
 openssl-3.3.0/
 openssl-3.3.0.tar.gz
+*/third_party/*

@@ -1,6 +1,6 @@
-const ipinfo_endpoint = 'https://hypersomnia.io/geolocation';
+const ipinfo_endpoint = 'https://hypersomnia.ir/geolocation';
 const clientIdDiscord = '1189671952479158403';
-const revoke_origin = 'https://hypersomnia.io';
+const revoke_origin = 'https://hypersomnia.ir';
 
 function decodeCrazyGamesToken(token) {
   const payloadBase64 = token.split('.')[1];
